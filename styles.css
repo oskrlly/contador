@@ -1,0 +1,43 @@
+body {
+  background-color: #0000FF;
+}
+
+.container {
+  display: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  color: #fff;
+}
+
+span {
+	font-size: 5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: normal;
+	color: #3399FF;
+	font-style: italic;
+  display: flex;
+	position: flex;
+  flex-direction: column;
+	text-align:center;
+}
+
+.container2  { 
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+
+button {
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #6ecff6;
+  text-transform: uppercase;
+    	
+}
